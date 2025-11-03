@@ -13,9 +13,6 @@ The package is designed as part of an ETL (Extract, Transform, Load) pipeline fo
 - **Dynamic Logging System:**  
   Inserts log entries at the start of the process and updates them upon completion or failure.
 
-- **Error Handling:**  
-  If an error occurs, the log table is automatically updated with the error message and timestamp.
-
 - **Scalable Structure:**  
   Can easily be adapted to handle other tables or incremental loads.
 
@@ -75,9 +72,8 @@ ErrorMessage	Any error message if failed
 
 ## Screenshots
 
-Control Flow Example:
-
-Data Flow Example:
+Control Flow Example:(https://bit.ly/SSIS_ResellerSales_Load_ControlFlow)
+Data Flow Example:(https://bit.ly/SSIS_ResellerSales_Load_DataFlow)
 
 
 ## Key Learning Outcomes
